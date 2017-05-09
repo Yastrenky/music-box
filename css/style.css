@@ -1,0 +1,23 @@
+.keys-container{
+  display: flex;;
+  justify-content: center;;
+}
+
+.key{
+  margin:5px;
+  border:1px solid #aaa;
+  height: 200px;
+  width: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.audio-files{
+  display: none;
+}
+.key#c:hover, .key#c:active{background-color:red ;}
+.key#d:hover, .key#d:active{background-color:orange ;}
+.key#e:hover, .key#e:active{background-color: yellow;}
+.key#f:hover, .key#f:active{background-color: green;}
+.key#g:hover, .key#g:active{background-color: blue;}
+.key#a:hover, .key#a:active{background-color: purple;}
+.key#b:hover, .key#b:active{background-color: pink;}
